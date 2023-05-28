@@ -1,0 +1,7 @@
+{
+    "editor.suggest.showFolders": true,
+    "explorer.fileNesting.enabled": true,
+    "todo-tree.tree.disableCompactFolders": false,
+    "explorer.compactFolders": false,
+    "npm-intellisense.packageSubfoldersIntellisense": true
+}

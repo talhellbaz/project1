@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.backround-container {
+    background: transparent url("assets/Background.jpg") no-repeat;
+    background-clip: content-box;
+    opacity: 1;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+
+
+.form-container {
+    background-color: #e3dfdfd4;
+
+    position: absolute;
+    top: 18vh;
+    right: 15rem;
+    opacity: 0.87;
+    color: rgb(0, 0, 0);
+    font-family: heebo;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 34vw; */
+    width: 60%;
+    padding: 8vh 5vh;
+    align-items: flex-start;
+    height: 45vh;
+    max-width: 500px;
+    ;
+
+}
+
+.form-container h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1vh;
+    color: #2729a4;
+}
+
+.form-container p {
+    font-size: 1.2rem;
+    padding-bottom: 1.2vh;
+}
+
+
+.form-container form {
+    padding-bottom: 2.5vh;
+    width: 100%;
+}
+
+.form-container form input {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border: none;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 3px solid #2729a4;
+
+}
+
+.form-container form label {
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form-container form button {
+    background-color: #2729a4;
+    color: #FFFFFF;
+    font-family: Heebo;
+    /* width: 5.5vw;
+    height: 3vh; */
+    margin-top: 1vh;
+    border: none;
+    padding: 0.5vw 4vh;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .backround-container {
+        background: transparent url("assets/Background.jpg") no-repeat;
+        background-clip: content-box;
+        opacity: 1;
+        height: 40vh;
+
+        background-size: 100% 150%;
+
+        width: 100%;
+    }
+
+    .form-container {
+        background-color: #eee;
+
+        position: absolute;
+        top: 24vh;
+        right: 4.5vh;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80vw;
+        padding: 8vh 5vh;
+        align-items: flex-start;
+        height: 65vh;
+
+
+    }
+
+    .form-container p,
+    h1 {
+        text-align: center;
+    }
+
+    .form-container form input {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .button-container {
+        display: flex;
+
+        justify-content: center;
+    }
+}
