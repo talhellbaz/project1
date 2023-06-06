@@ -4,3 +4,7 @@ function nav(url) {
     address.push(url)
     window.open(address.join("/"), "_blank");
 }
+function download(url) {
+
+    window.open(url, "_blank");
+}
