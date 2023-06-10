@@ -52,7 +52,8 @@ ul {
 }
 
 .nav-links li:hover {
-    transition: transform 0.15s;
+    transition: transform 0.20s;
+
     transform: translateY(-0.25em);
 
 }
@@ -63,6 +64,7 @@ ul {
     color: #70dcf2;
     transition: color 0.25s, transform 0.25s;
     letter-spacing: 0.1rem;
+
 
 
 }
@@ -354,6 +356,8 @@ svg {
 
     transition: box-shadow 0.25s, transform 0.25s;
 
+
+
 }
 
 .form-section {
@@ -401,7 +405,7 @@ svg {
 .form-container p,
 .form-container textarea {
     width: 100%;
-    padding: 3px;
+    padding: 5px;
     font-size: 1rem
 }
 
